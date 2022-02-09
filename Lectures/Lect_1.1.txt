@@ -1,2 +1,32 @@
 Git 
 Version control System
+
+For the First time
+1. Create a repository in github and in Local folder with same name.
+2. Open Gitbash.
+3. git init
+4. git add <File name with extension and path>
+5. git branch -M main (there could be different branch for different job like main)
+6. git remote add origin <Link of github repo>
+7. git commit -m "first commit" (commit with message using -m)
+
+optional steps only asked by the git-bash
+1-1. git config --global user.email "shubhamseth25j00@gmail.com" (your email)
+1-2. git config --global user.name "mrshubham2k" (git username here)
+
+8. git push -u origin main (final push in the github)
+9. If asked to login in git you can do it either by providing udername password or access token and again run step 8 command else you are good to go.
+
+
+
+
+
+
+
+
+
+
+
+Points to remember*
+-Git will not add any folder if it's empty.
+-Folder name in you local system should be same as the Repo name.
