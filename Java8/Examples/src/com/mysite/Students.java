@@ -1,9 +1,9 @@
 package com.mysite;
 
-import java.util.Arrays;
+import java.util.*;
 import java.util.Scanner;
 
-class DetailsOfStudents implements Comparable<DetailsOfStudents>{
+class DetailsOfStudents {
     private int id;
     private String name;
 
@@ -13,7 +13,7 @@ class DetailsOfStudents implements Comparable<DetailsOfStudents>{
     }
 
     public int getId() {
-        return id;
+        return this.id;
     }
 
     public void setId(int id) {
@@ -21,7 +21,7 @@ class DetailsOfStudents implements Comparable<DetailsOfStudents>{
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
@@ -32,17 +32,68 @@ class DetailsOfStudents implements Comparable<DetailsOfStudents>{
     public String toString() {
         return "DetailsOfStudents{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
+                ", name=" + name +
                 '}';
-    }
-
-    @Override
-    public int compareTo(DetailsOfStudents o) {
-        return this.getId()-o.getId();
     }
 }
 
 public class Students {
+
+//    public static DetailsOfStudents[] SortById(DetailsOfStudents[] studentArray){
+//        System.out.println("Sorting by Id");
+//        Arrays.sort(studentArray);
+//        for(int i=0;i< studentArray.length;i++)
+//        {
+//            System.out.println(studentArray[i]);
+//        }
+//        return studentArray;
+//    }
+//
+//    public static DetailsOfStudents[] SortByName(DetailsOfStudents[] studentArray){
+//        System.out.println("Sorting by Name");
+//        Arrays.sort(studentArray, (a, b) -> a.getName().compareTo(b.getName()));
+//        for(int i=0;i<studentArray.length;i++)
+//        {
+//            System.out.println(studentArray[i]);
+//        }
+//        return studentArray;
+//    }
+
+    public static DetailsOfStudents[] sortDetails(DetailsOfStudents[] studentArray,int id){
+        DetailsOfStudents swap;
+        for(int i=0;i<studentArray.length;i++)
+        {
+            for(int j=i;j<studentArray.length-1;j++){
+                if(studentArray[j].getId()>studentArray[j+1].getId()){
+
+                    swap = studentArray[j];
+                    studentArray[j] = studentArray[j+1];
+                    studentArray[j+1] = swap;
+
+//
+                }
+            }
+        }
+        return studentArray;
+    }
+
+    public static DetailsOfStudents[] sortDetails(DetailsOfStudents[] studentArray,String name){
+        DetailsOfStudents swap;
+        for(int i=0;i<studentArray.length;i++)
+        {
+            for(int j=i;j<studentArray.length-1;j++){
+                String name1 = studentArray[j+1].getName();
+                String name2 = studentArray[j].getName();
+                if(name1.compareToIgnoreCase(name2)<0){
+                    swap = studentArray[j];
+                    studentArray[j] = studentArray[j+1];
+                    studentArray[j+1] = swap;
+                }
+            }
+        }
+        return studentArray;
+    }
+
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -56,36 +107,18 @@ public class Students {
             String name = sc.nextLine();
             stdArray[i] = new DetailsOfStudents(id, name);
         }
-
-
-//        stdArray[0] = new DetailsOfStudents(101,"Raj");
-//        stdArray[1] = new DetailsOfStudents(121,"Rajesh");
-//        stdArray[2] = new DetailsOfStudents(130,"Suraj");
-//        stdArray[3] = new DetailsOfStudents(114,"Tom");
-
-        System.out.println("Sorting by Id");
-        Arrays.sort(stdArray);
-        for(int i=0;i<noOfEntry;i++)
+        DetailsOfStudents[] idSortedArray = sortDetails(stdArray,1);
+        for(int i=0;i<idSortedArray.length;i++)
         {
-            System.out.println(stdArray[i]);
+            System.out.println(idSortedArray[i]);
         }
-
         System.out.println("___________________________________________________________________________________________________________________________________________________");
-
-        System.out.println("Sorting by Name");
-        Arrays.sort(stdArray, (a, b) -> a.getName().compareTo(b.getName()));
-        for(int i=0;i<noOfEntry;i++)
+        idSortedArray = sortDetails(idSortedArray,"name");
+        for(int i=0;i<idSortedArray.length;i++)
         {
-            System.out.println(stdArray[i]);
+            System.out.println(idSortedArray[i]);
         }
 
     }
 
 }
-
-
-
-        101 Raj
-        121 Rajesh
-        130 Suraj
-        114 Tom
