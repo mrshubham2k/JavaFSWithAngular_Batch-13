@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Assignment/Assignment.iml" filepath="$PROJECT_DIR$/Assignment/Assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Concepts/Concepts.iml" filepath="$PROJECT_DIR$/Concepts/Concepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Concepts &amp; Practice/Concepts &amp; Practice.iml" filepath="$PROJECT_DIR$/Concepts &amp; Practice/Concepts &amp; Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Examples/Examples.iml" filepath="$PROJECT_DIR$/Examples/Examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice.iml" filepath="$PROJECT_DIR$/Practice.iml" />
     </modules>
   </component>
