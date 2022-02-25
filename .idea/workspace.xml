@@ -2,53 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36735048-4c3a-474d-8d29-2f0847bbd04f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Java8/Concepts/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Concepts/.idea/Concepts.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Concepts/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Concepts/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Concepts/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Concepts/TestInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Concepts/out/production/Concepts/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Concepts/out/production/Concepts/.idea/Concepts.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Concepts/out/production/Concepts/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Concepts/out/production/Concepts/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Concepts/out/production/Concepts/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Concepts/out/production/Concepts/com/mysite/InterfaceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Concepts/out/production/Concepts/com/mysite/MyInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Concepts/out/production/Concepts/com/mysite/MyInterface2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Concepts/out/production/Concepts/com/mysite/TestInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/Java_Testing.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/out/production/Java_Testing/CheckGrade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/out/production/Java_Testing/FirstProgram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/out/production/Java_Testing/GradesCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/out/production/Java_Testing/Mobile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/out/production/Java_Testing/com/mysite/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/out/production/Java_Testing/com/mysite/DetailsOfStudents.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/out/production/Java_Testing/com/mysite/InterfaceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/out/production/Java_Testing/com/mysite/MyInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/out/production/Java_Testing/com/mysite/MyInterface2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/out/production/Java_Testing/com/mysite/SimpleCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/out/production/Java_Testing/com/mysite/StudentDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/out/production/Java_Testing/com/mysite/StudentPojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/out/production/Java_Testing/com/mysite/Students.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/out/production/Java_Testing/com/mysite/TestInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/src/FirstProgram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/src/GradesCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/src/com/mysite/SimpleCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/src/com/mysite/StudentPojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Examples/src/com/mysite/Students.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Practice/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Practice/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Practice/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Practice/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Practice/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Practice/CompanyHiring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/Practice/Practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8/Concepts/src/TestDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/Concepts/src/TestDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8/out/production/Concepts/TestDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/out/production/Concepts/TestDate.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +24,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Maven Projects" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

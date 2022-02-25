@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/Concepts &amp; Practice/Concepts &amp; Practice.iml" filepath="$PROJECT_DIR$/Concepts &amp; Practice/Concepts &amp; Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Examples/Examples.iml" filepath="$PROJECT_DIR$/Examples/Examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice.iml" filepath="$PROJECT_DIR$/Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PractiseQuestionM1/PractiseQuestionM1.iml" filepath="$PROJECT_DIR$/PractiseQuestionM1/PractiseQuestionM1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SampleProject/SampleProject.iml" filepath="$PROJECT_DIR$/SampleProject/SampleProject.iml" />
     </modules>
   </component>
 </project>
